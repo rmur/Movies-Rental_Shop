@@ -3,3 +3,18 @@
 ################################################################################
 
 /.vs/Vidly/v15
+/Vidly/Scripts
+/Vidly/App_Data
+/Vidly/Content/bootstrap-grid.min.css.map
+/Vidly/Content/bootstrap-grid.min.css
+/Vidly/Content/bootstrap-grid.css.map
+/Vidly/Content/bootstrap-grid.css
+/Vidly/Content/bootstrap.min.css.map
+/Vidly/Content/bootstrap.min.css
+/Vidly/Content/bootstrap.css.map
+/Vidly/Content/bootstrap.css
+/Vidly/Content/bootstrap-reboot.min.css.map
+/Vidly/Content/bootstrap-reboot.min.css
+/Vidly/Content/bootstrap-reboot.css.map
+/Vidly/Content/bootstrap-reboot.css
+/Vidly/bin
