@@ -1,0 +1,40 @@
+﻿@model Vidly.ViewModels.MovieViewModel
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    var header = "New Movie";
+    if (Model.Name != null)
+    {
+        header = "Edit Movie";
+    }
+
+}
+
+<h2>@header</h2>
+@using (Html.BeginForm("Save", "Movies"))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.NumbersInStock)
+        @Html.TextBoxFor(m => m.NumbersInStock, new { @class = "form-control" })
+    </div><div class="form-group">
+        @Html.LabelFor(m => m.ReleaseData)
+        @Html.TextBoxFor(m => m.ReleaseData, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.GenreId)
+        @Html.DropDownListFor(m => m.GenreId, new SelectList(Model.Genres, "Id", "Name"), "Select Genre", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary" type="submit">Save</button>
+    </div>
+
+
+}
+
