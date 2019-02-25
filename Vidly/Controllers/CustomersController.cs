@@ -20,7 +20,7 @@ namespace Vidly.Controllers
             _context.Dispose();
         }
 
-
+        [AllowAnonymous]
         public ViewResult Index()
         {
             return View();

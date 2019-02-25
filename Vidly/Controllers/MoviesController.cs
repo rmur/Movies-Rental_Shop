@@ -19,6 +19,8 @@ namespace Vidly.Controllers
         {
             _context.Dispose();
         }
+
+        [AllowAnonymous]
         public ViewResult Index()
         {
             var movies = _context.Movies.Include(c => c.Genre).ToList();
