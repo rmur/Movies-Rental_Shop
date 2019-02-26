@@ -121,7 +121,6 @@ C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\bin\Microsoft.AI.DependencyCollec
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\bin\Microsoft.AI.Web.xml
-C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedtoCustomer.resources
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
@@ -132,9 +131,11 @@ C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMem
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembership.resources
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingGenres.resources
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingMissingTablesColumns.resources
+C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.pdb
-C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\RMRM\Documents\MyProjects\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
