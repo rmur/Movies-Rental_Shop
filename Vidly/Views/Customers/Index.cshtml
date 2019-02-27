@@ -1,5 +1,4 @@
-﻿@model IEnumerable<Vidly.Models.Customer>
-@*
+﻿@*
     Note: I've set the model for this view to IEnumerable<Customer>.
     This is a simple interface implemented by the list class. Since
     in this view we only want to iterate over this list, and we don't
@@ -27,16 +26,6 @@
         </tr>
     </thead>
     <tbody>
-        @*@foreach (var customer in Model)
-        {
-            <tr>
-                <td>@Html.ActionLink(customer.Name, "Edit", "Customers", new { id = customer.Id }, null)</td>
-                <td>@customer.MembershipType.Name</td>
-                <td>
-                    <button data-customer-id="@customer.Id" class="btn-link js-delete">Delete</button>
-                </td>
-            </tr>
-        }*@
     </tbody>
 </table>
 
