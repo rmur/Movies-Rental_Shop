@@ -12,7 +12,7 @@ namespace Vidly.ViewModels
         public IEnumerable<Genre> Genres { get; set; }
         [Display(Name = "Genre")]
         public byte GenreId { get; set; }
-        public int NumbersInStock { get; set; }
+        public int NumberInStock { get; set; }
         public string Name { get; set; }
         public DateTime ReleaseData { get; set; }
     }

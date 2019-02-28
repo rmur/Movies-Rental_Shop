@@ -62,7 +62,7 @@ namespace Vidly.Controllers
                 movieInDb.Name = movie.Name;
                 movieInDb.ReleaseData = movie.ReleaseData;
                 movieInDb.Genre = movie.Genre;
-                movieInDb.NumbersInStock = movie.NumbersInStock;
+                movieInDb.NumberInStock = movie.NumberInStock;
             }
             _context.SaveChanges();
 
@@ -81,7 +81,7 @@ namespace Vidly.Controllers
                 Name = movie.Name,
                 ReleaseData = movie.ReleaseData,
                 GenreId = movie.GenreId,
-                NumbersInStock = movie.NumbersInStock
+                NumberInStock = movie.NumberInStock
             };
             return View("MovieForm", viewModel);
         }

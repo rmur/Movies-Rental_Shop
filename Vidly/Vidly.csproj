@@ -223,6 +223,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Api\CustomersController.cs" />
     <Compile Include="Controllers\Api\MoviesController.cs" />
+    <Compile Include="Controllers\Api\NewRentalsController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -231,6 +232,7 @@
     <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
+    <Compile Include="Dtos\NewRentalDto.cs" />
     <Compile Include="GlimpseSecurityPolicy.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -283,15 +285,33 @@
     <Compile Include="Migrations\201902252244220_AddDrivingLicenseToApplicationUser.Designer.cs">
       <DependentUpon>201902252244220_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902282200227_AddingRentalsTable.cs" />
+    <Compile Include="Migrations\201902282200227_AddingRentalsTable.Designer.cs">
+      <DependentUpon>201902282200227_AddingRentalsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902282213061_AddingRentalsTable1.cs" />
+    <Compile Include="Migrations\201902282213061_AddingRentalsTable1.Designer.cs">
+      <DependentUpon>201902282213061_AddingRentalsTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902282220550_AddingNumberAvailableToMovies.cs" />
+    <Compile Include="Migrations\201902282220550_AddingNumberAvailableToMovies.Designer.cs">
+      <DependentUpon>201902282220550_AddingNumberAvailableToMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902282224230_UpdatingNumberAvailable.cs" />
+    <Compile Include="Migrations\201902282224230_UpdatingNumberAvailable.Designer.cs">
+      <DependentUpon>201902282224230_UpdatingNumberAvailable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Rental.cs" />
     <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -692,6 +712,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902252244220_AddDrivingLicenseToApplicationUser.resx">
       <DependentUpon>201902252244220_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902282200227_AddingRentalsTable.resx">
+      <DependentUpon>201902282200227_AddingRentalsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902282213061_AddingRentalsTable1.resx">
+      <DependentUpon>201902282213061_AddingRentalsTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902282220550_AddingNumberAvailableToMovies.resx">
+      <DependentUpon>201902282220550_AddingNumberAvailableToMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902282224230_UpdatingNumberAvailable.resx">
+      <DependentUpon>201902282224230_UpdatingNumberAvailable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
